@@ -7,26 +7,16 @@ import Slide5Src from "./images/Slide-5.png";
 
 export function Slider() {
 
+const Img = () => {
+    return(
+        <Image src={Slide1Src} alt=""/>
+    )
+}
+
 const data = [
 {
     name: ' Sun-Glass',
-    img: <Image src={Slide1Src} alt=""/>
-},
-{
-    name: ' NuEvey',
-    img: <Image src={Slide2Src} alt=""/>
-},
-{
-    name: ' Sun-Glass',
-    img:<Image src={Slide3Src} alt=""/>
-},
-{
-    name: ' NuEvey',
-    img:<Image src={Slide4Src} alt=""/>
-},
-{
-    name: ' Sun-Glass',
-    img:<Image src={Slide5Src} alt=""/>
+    img: './images/Slide-1.png',
 }
 ]
 
@@ -50,3 +40,4 @@ const data = [
         </div>
     );
 }
+
