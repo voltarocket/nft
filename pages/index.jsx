@@ -1,5 +1,6 @@
 import { Header } from "../components/header/index"
 import { Discover } from "../components/discover/index"
+import { Slider } from "../components/slider/index"
 
 export default function HomePage() {
 
@@ -8,6 +9,7 @@ export default function HomePage() {
             <Header />
             <main>
             <Discover />
+            <Slider />
             </main>
         </div>
        
