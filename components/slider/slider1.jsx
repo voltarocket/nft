@@ -13,11 +13,11 @@ export function Slider1() {
 const data = [
     {
         name: ' Sun-Glass',
-        img: Slide1Src,
+        img: Slide3Src,
     },
     {
         name: ' Sun-Glass',
-        img: Slide2Src,
+        img: Slide4Src,
     },
     {
         name: ' Sun-Glass',
@@ -50,11 +50,15 @@ const data = [
                         <div className="h-[252.9px] w-[252.9px]">
                             <Image src={d.img} alt="" className="rounded-xl"/>
                         </div>
-                        <div className="flex flex-col">
-                            <p>
+                        <div className="flex flex-col  p-[18.82px]">
+                            <div className="text-[21.68px] font-[600]">
                                 {d.name}
-                            </p>
-                            <button className="h-[51px] w-[121px] bg-slate-950 text-white rounded-[11.76px]">PLACE BID</button>
+                            </div>
+                            <div className="flex items-center gap-14 mt-[14.2px]">
+                                <div className="font-[400] text-slate-500">Current Bid</div>
+                                <button className="h-[51px] w-[121px] bg-slate-950 text-white rounded-[11.76px]">PLACE BID</button>
+                            </div>
+                           
                         </div>
                     </div>
                 ))}</Slider>
