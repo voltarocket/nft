@@ -449,4 +449,5 @@ eval(__webpack_require__.ts("__webpack_require__.r(__webpack_exports__);\n/* har
 /******/ __webpack_require__.O(0, ["pages/_app","main"], () => (__webpack_exec__("./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?absolutePagePath=C%3A%5CUsers%5Cvolta%5CDesktop%5Cnft%5Cpages%5Cindex.jsx&page=%2F!")));
 /******/ var __webpack_exports__ = __webpack_require__.O();
 /******/ _N_E = __webpack_exports__;
-/******/ 
+/******/ }
+]);
