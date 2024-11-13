@@ -1,6 +1,6 @@
 import { Header } from "../components/header/index"
 import { Discover } from "../components/discover/index"
-import { Slider1 } from "../components/slider/slider1"
+import { ReactSlider } from "../components/slider/react-slider"
 
 export default function HomePage() {
 
@@ -9,7 +9,7 @@ export default function HomePage() {
             <Header />
             <main>
             <Discover />
-            <Slider1 />
+            <ReactSlider />
             </main>
         </div>
        
