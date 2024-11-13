@@ -2,13 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+.slick-slide > div {
+  width: 281px;
+  padding-bottom: 40px;
+}
 
-      .slick-slide > div {
-        margin: 0 10px;
-        width: 281px;
-        overflow: hidden;
-      }
-      .slick-list {
-        margin: 0 -10px;
-      }
-    
