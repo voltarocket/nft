@@ -22,7 +22,7 @@ export function Marketplace() {
                     filterItem={filterItem}
                     setItem={setItem}
                     menuItems={menuItems}/>
-                    <div className="flex flex-row justify-center gap-3"> 
+                    <div className="flex flex-row  gap-3"> 
                     <NftCard item={item} /> 
                 </div>
             </div>

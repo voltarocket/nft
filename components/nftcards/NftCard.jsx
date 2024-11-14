@@ -3,7 +3,6 @@ import { BidIcon } from "../slider/icons/BidIcon"
 
 export function NftCard({item}) {
     return (
-        
             item?.map((d) => (
             <div className="bg-white h-[402.28px] text-black rounded-xl p-3 shadow-xl">
                 <div className="h-[252.9px] w-[252.9px]">

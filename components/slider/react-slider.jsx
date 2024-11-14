@@ -38,7 +38,7 @@ export function ReactSlider() {
             </div>
             <div className="slider-container">
                     <Slider ref={slider => { sliderRef = slider;}} {...settings}>
-                        <NftCard />
+                        <NftCard></NftCard>
                     </Slider>
                 </div>
                 <div className="flex justify-center pt-[74.42px] pb-[90.1px]">
