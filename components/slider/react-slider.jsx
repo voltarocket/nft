@@ -1,49 +1,17 @@
-import Image from "next/image";
+import Image from "next/image.js";
 import { useRef } from "react";
-import Slide1Src from "./images/Slide-1.png";
-import Slide2Src from "./images/Slide-2.png";
-import Slide3Src from "./images/Slide-3.png";
-import Slide4Src from "./images/Slide-4.png";
-import Slide5Src from "./images/Slide-5.png";
 import Icon1Src from "./images/icon.png";
 import Icon2Src from "./images/icon2.png"
+import { BidIcon } from "./icons/BidIcon.jsx";
 import { ArrowLeftIcon } from "./icons/ArrowLeftIcon";
 import { ArrowRightIcon } from "./icons/ArrowRightIcon";
-import { BidIcon } from "./icons/BidIcon";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { NftCard } from "../nftcards/NftCard.jsx";
 
 
 export function ReactSlider() {
-
-const data = [
-    {
-        name: ' Sun-Glass',
-        img: Slide3Src,
-        currentBid: '1.75',
-    },
-    {
-        name: ' Sun-Glass',
-        img: Slide4Src,
-        currentBid: '1.25',
-    },
-    {
-        name: ' Sun-Glass',
-        img: Slide3Src,
-        currentBid: '1.75',
-    },
-    {
-        name: ' Sun-Glass',
-        img: Slide4Src,
-        currentBid: '1.25',
-    },
-    {
-        name: ' Sun-Glass',
-        img: Slide5Src,
-        currentBid: '1.75',
-    }
-]
 
     const settings = {
         className: "center",
@@ -69,34 +37,9 @@ const data = [
             Weekly - Top NFT
             </div>
             <div className="slider-container">
-                    <Slider ref={slider => {
-                             sliderRef = slider;
-                         }}
-                             {...settings}>
-                    {data.map((d) => (
-                    <div className="bg-white h-[402.28px] text-black rounded-xl p-3 shadow-xl">
-                        <div className="h-[252.9px] w-[252.9px]">
-                            <Image src={d.img} alt="" className="rounded-xl"/>
-                        </div>
-                        <div className="flex flex-col  p-[18.82px]">
-                            <div className="text-[21.68px] font-[600]">
-                                {d.name}
-                            </div>
-                            <div className="flex items-center mt-[14.2px]">
-                                <div className="w-[121.74px] flex flex-col justify-center">
-                                    <div className="font-[400] text-slate-500 mb-[4.16px]">Current Bid</div>
-                                    <div className="flex items-center gap-[3.46px] font-[500]">
-                                        <BidIcon />
-                                        {d.currentBid}
-                                    </div>
-                                </div>
-                                <button className="h-[51px] w-[121.74px] font-[600] bg-black text-white hover:bg-white hover:text-black border-2 border-black hover:border-black rounded-[11.76px]">PLACE BID</button>
-                            </div>
-                           
-                        </div>
-                    </div>
-                ))}
-                </Slider>
+                    <Slider ref={slider => { sliderRef = slider;}} {...settings}>
+                        <NftCard />
+                    </Slider>
                 </div>
                 <div className="flex justify-center pt-[74.42px] pb-[90.1px]">
                     <div className="h-[68.99px] w-[166px] bg-[#FCFCFD] rounded-[17.25px] shadow-2xl p-[21.56px] flex justify-center">
