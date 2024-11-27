@@ -1,7 +1,7 @@
 import { Header } from "../components/header/index"
 import { Discover } from "../components/discover/index"
-import { ReactSlider } from "../components/slider/react-slider"
-import { Marketplace } from "../components/marketplace"
+import { Weekly } from "../components/weekly/index"
+import { Marketplace } from "../components/marketplace/index"
 
 export default function HomePage() {
 
@@ -10,7 +10,7 @@ export default function HomePage() {
             <Header />
             <main>
             <Discover />
-            <ReactSlider />
+            <Weekly />
             <Marketplace />
             </main>
         </div>

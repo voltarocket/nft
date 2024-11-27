@@ -1,6 +1,6 @@
-import Slide1Src from "../slider/images/Slide-3.png";
-import Slide2Src from "../slider/images/Slide-4.png";
-import Slide3Src from "../slider/images/Slide-5.png";
+import Slide1Src from "../weekly/images/Slide-3.png";
+import Slide2Src from "../weekly/images/Slide-4.png";
+import Slide3Src from "../weekly/images/Slide-5.png";
 
 export const Data = [
     {

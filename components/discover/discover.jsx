@@ -1,8 +1,8 @@
 import Image from "next/image"
 import Image1Src from "./images/Rectangle 3.png"
 import Image2Src from "./images/Rectangle 4.png" 
-import { ArrowLeftIcon } from "../slider/icons/ArrowLeftIcon"
-import { ArrowRightIcon } from "../slider/icons/ArrowRightIcon"
+import { ArrowLeftIcon } from "../weekly/icons/ArrowLeftIcon"
+import { ArrowRightIcon } from "../weekly/icons/ArrowRightIcon"
 
 
 export function Discover() {

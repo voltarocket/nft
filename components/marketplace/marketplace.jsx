@@ -1,6 +1,6 @@
 import { useState } from "react"
 import { Data } from "../nftcards/NftData"
-import { NftCard } from "../nftcards/NftCard"
+import { TabItem } from "./TabItem";
 import { TabButtons } from "./TabButtons";
 
 export function Marketplace() {
@@ -23,7 +23,7 @@ export function Marketplace() {
                     setItem={setItem}
                     menuItems={menuItems}/>
                     <div className="flex flex-row  gap-3"> 
-                    <NftCard item={item} /> 
+                    <TabItem item={item} /> 
                 </div>
             </div>
         </div>
