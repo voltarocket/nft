@@ -2,6 +2,7 @@ import { Header } from "../components/header/index"
 import { Discover } from "../components/discover/index"
 import { Weekly } from "../components/weekly/index"
 import { Marketplace } from "../components/marketplace/index"
+import { Explore } from "../components/explore/index"
 
 export default function HomePage() {
 
@@ -12,6 +13,7 @@ export default function HomePage() {
             <Discover />
             <Weekly />
             <Marketplace />
+            <Explore className="pt-[180.92px]"/>
             </main>
         </div>
        
