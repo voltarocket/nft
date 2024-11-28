@@ -2,7 +2,7 @@ import Image from "next/image"
 import { useState, useEffect } from "react";
 import { BidIcon } from "../weekly/icons/BidIcon"
 
-export function NftCard({img, name, currentBid, time}) {
+export function NftCard({img, name, currentBid}) {
     const initialTimeInSeconds = 7 * 3600 + 9 * 60 + 12;
     const [timeLeft, setTimeLeft] = useState(initialTimeInSeconds);
 

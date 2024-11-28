@@ -22,7 +22,7 @@ export function Marketplace() {
                     filterItem={filterItem}
                     setItem={setItem}
                     menuItems={menuItems}/>
-                    <div className="flex flex-row  gap-3"> 
+                    <div className="flex flex-row flex-wrap px-[96px] gap-x-[39.97px] gap-y-[67.62px]"> 
                     <TabItem item={item} /> 
                 </div>
             </div>
