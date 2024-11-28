@@ -1,9 +1,9 @@
 import { NftCard } from "../nftcards/NftCard"
 
-export function TabItem({item, img, name, currentBid}) {
+export function TabItem({item}) {
     return(
         item?.map((d) =>(
-            <NftCard img={img} name={name} currentBid={currentBid}/>
+            <NftCard img={d.img} name={d.name} currentBid={d.currentBid} time={d.time}/>
         ))
     )
 }

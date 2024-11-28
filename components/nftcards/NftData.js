@@ -8,6 +8,7 @@ export const Data = [
         name: ' Sun-Glass',
         img: Slide1Src,
         currentBid: '1.75',
+        time:'07h 09m 12s',
         category:'Category',
     },
     {
@@ -15,6 +16,7 @@ export const Data = [
         name: ' Sun-Glass',
         img: Slide2Src,
         currentBid: '1.25',
+        time:'07h 09m 12s',
         category:'Collection',
     },
     {
@@ -22,6 +24,7 @@ export const Data = [
         name: ' Sun-Glass',
         img: Slide1Src,
         currentBid: '1.75',
+        time:'07h 09m 12s',
         category:'Category',
     },
     {
@@ -29,6 +32,7 @@ export const Data = [
         name: ' Sun-Glass',
         img: Slide2Src,
         currentBid: '1.25',
+        time:'07h 09m 12s',
         category:'Price',
     },
     {
@@ -36,6 +40,7 @@ export const Data = [
         name: ' Sun-Glass',
         img: Slide3Src,
         currentBid: '1.75',
+        time:'07h 09m 12s',
         category:'Category',
     },
 ];
