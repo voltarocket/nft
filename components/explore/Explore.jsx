@@ -22,7 +22,7 @@ export function Explore({className}) {
             </button>
         </div>
             </div>
-            <Image src={ImageSrc} alt="" className="h-[249px] w-[369px]"/>
+            <Image src={ImageSrc} alt="" className="h-[249px] w-[369px] shadow-2xl shadow-indigo-200/100 rounded-[15.79px]"/>
         </div>
     </div>
     )
