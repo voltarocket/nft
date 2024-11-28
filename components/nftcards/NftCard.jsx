@@ -20,7 +20,7 @@ export function NftCard({img, name, currentBid}) {
          <div className="bg-white h-[402.28px] w-[281.13px] text-black rounded-[23.48px] p-[14.2px] shadow-xl">
         <div className="h-[252.9px] w-[252.9px]">
             <Image src={img} alt="" className="rounded-[23.48px] relative"/>
-            <div className="absolute -mt-[238.7px] ml-[127.03px] h-[37.64px] w-[116.58px] bg-[#1C1D2059] rounded-[9.41px] px-[14.29px] py-[8.32px] text-[14.12px] text-white text-center">
+            <div className="absolute -mt-[238.7px] ml-[127.03px] h-[37.64px] w-[116.58px] font-[500] bg-[#1C1D2059] rounded-[9.41px] px-[14.29px] py-[8.32px] text-[14.12px] text-white text-center">
                 {timeLeft > 0 ? formatTime(timeLeft) : "SOLD"}
             </div>
         </div>
